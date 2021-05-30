@@ -1,0 +1,6 @@
+[submodule "mis-backend"]
+	path = mis-backend
+	url = https://github.com/borgishmorg/mis-backend.git
+[submodule "mis-frontend"]
+	path = mis-frontend
+	url = https://github.com/borgishmorg/mis-frontend
