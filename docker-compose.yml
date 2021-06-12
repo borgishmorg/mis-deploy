@@ -25,6 +25,8 @@ services:
       ENABLE_DEVELOP_MOD: 'False'
       ENABLE_RANDOM_JWT_SECRET: 'True'
       POSTGRES_DSN: 'postgresql://root:example@mis-postgres:5432/mis'
+    volumes:
+      - /opt/mis/files:/api/files
 
   mis-postgres:
     container_name: mis-postgres
